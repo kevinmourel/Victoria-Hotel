@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="915.0" style="-fx-background-color: #032149;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="victoriahotel.FXMLHomeController">
+   <children>
+      <AnchorPane layoutX="43.0" layoutY="102.0" prefHeight="433.0" prefWidth="251.0" style="-fx-background-color: #e5e5e5;">
+         <children>
+            <ImageView fitHeight="176.0" fitWidth="201.0" layoutX="29.0" layoutY="38.0">
+               <image>
+                  <Image url="@../gambar/StandardRoom.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="84.0" layoutY="228.0" text="Standard Room" textFill="#042c62">
+               <font>
+                  <Font name="BebasNeue" size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="25.0" fitWidth="22.0" layoutX="34.0" layoutY="304.0">
+               <image>
+                  <Image url="@../gambar/wifi.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="22.0" layoutX="29.0" layoutY="267.0">
+               <image>
+                  <Image url="@../gambar/free.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="68.0" layoutY="304.0" text="Free Wifi" textFill="#1b84db">
+               <font>
+                  <Font name="BebasNeue" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="63.0" layoutY="267.0" text="Free breakfast" textFill="#1b84db">
+               <font>
+                  <Font name="BebasNeue" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="186.0" layoutY="343.0" text="Rating" textFill="#1b84db">
+               <font>
+                  <Font name="BebasNeue" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="198.0" layoutY="369.0" text="8.8" textFill="#1b84db">
+               <font>
+                  <Font name="BebasNeue" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="22.0" layoutY="343.0" text="Start from" textFill="#1b84db">
+               <font>
+                  <Font name="BebasNeue" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="21.0" layoutY="369.0" text="Rp 150.000" textFill="#1b84db">
+               <font>
+                  <Font name="BebasNeue" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="625.0" layoutY="102.0" prefHeight="433.0" prefWidth="251.0" style="-fx-background-color: #e5e5e5;">
+         <children>
+            <ImageView fitHeight="176.0" fitWidth="200.0" layoutX="25.0" layoutY="39.0">
+               <image>
+                  <Image url="@../gambar/ExecutiveRoom.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="78.0" layoutY="229.0" text="Executive Room" textFill="#042c62">
+               <font>
+                  <Font name="BebasNeue" size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="25.0" fitWidth="22.0" layoutX="30.0" layoutY="304.0">
+               <image>
+                  <Image url="@../gambar/wifi.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="22.0" layoutX="25.0" layoutY="267.0">
+               <image>
+                  <Image url="@../gambar/free.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="64.0" layoutY="304.0" text="Free Wifi" textFill="#1b84db">
+               <font>
+                  <Font name="BebasNeue" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="59.0" layoutY="267.0" text="Free breakfast" textFill="#1b84db">
+               <font>
+                  <Font name="BebasNeue" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="192.0" layoutY="342.0" text="Rating" textFill="#1b84db">
+               <font>
+                  <Font name="BebasNeue" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="204.0" layoutY="368.0" text="9.7" textFill="#1b84db">
+               <font>
+                  <Font name="BebasNeue" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="342.0" text="Start from" textFill="#1b84db">
+               <font>
+                  <Font name="BebasNeue" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="368.0" text="Rp 600.000" textFill="#1b84db">
+               <font>
+                  <Font name="BebasNeue" size="20.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane prefHeight="71.0" prefWidth="915.0" style="-fx-background-color: #042c62;">
+         <children>
+            <Label layoutX="343.0" layoutY="4.0" text="Victoria hotel" textFill="#e5e5e5">
+               <font>
+                  <Font name="BebasNeue" size="48.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="Logout" layoutX="828.0" layoutY="18.0" onAction="#SignOut" style="-fx-background-color: #032149;" text="Sign out" textFill="WHITE">
+               <font>
+                  <Font name="BebasNeue" size="18.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="332.0" layoutY="102.0" prefHeight="433.0" prefWidth="251.0" style="-fx-background-color: #e5e5e5;">
+         <children>
+            <ImageView fitHeight="176.0" fitWidth="201.0" layoutX="26.0" layoutY="41.0">
+               <image>
+                  <Image url="@../gambar/DeluxeRoom.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="81.0" layoutY="230.0" text="deluxe Room" textFill="#042c62">
+               <font>
+                  <Font name="BebasNeue" size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="25.0" fitWidth="22.0" layoutX="31.0" layoutY="306.0">
+               <image>
+                  <Image url="@../gambar/wifi.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="22.0" layoutX="26.0" layoutY="269.0">
+               <image>
+                  <Image url="@../gambar/free.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="65.0" layoutY="306.0" text="Free Wifi" textFill="#1b84db">
+               <font>
+                  <Font name="BebasNeue" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="60.0" layoutY="269.0" text="Free breakfast" textFill="#1b84db">
+               <font>
+                  <Font name="BebasNeue" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="190.0" layoutY="341.0" text="Rating" textFill="#1b84db">
+               <font>
+                  <Font name="BebasNeue" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="202.0" layoutY="367.0" text="9.2" textFill="#1b84db">
+               <font>
+                  <Font name="BebasNeue" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="19.0" layoutY="341.0" text="Start from" textFill="#1b84db">
+               <font>
+                  <Font name="BebasNeue" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="18.0" layoutY="367.0" text="Rp 350.000" textFill="#1b84db">
+               <font>
+                  <Font name="BebasNeue" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <JFXButton fx:id="choose" layoutX="389.0" layoutY="549.0" onAction="#Choose" prefHeight="37.0" prefWidth="138.0" style="-fx-background-color: #e5e5e5;" text="Choose" textFill="#032149">
+         <font>
+            <Font name="BebasNeue" size="18.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
